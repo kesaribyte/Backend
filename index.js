@@ -13,6 +13,11 @@ app.get('/instagrm', (req, res)=> {
   res.send('https://www.instagram.com/omraje_shitole_deshmukh?igsi=a21waDVnYB5cnly')
 })
 
+app.get('/sanpchat', (req,res)=> {
+  res.send('omraje.shtole')
+})
+
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
