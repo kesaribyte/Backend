@@ -13,7 +13,7 @@ app.get('/instagrm', (req, res)=> {
   res.send('https://www.instagram.com/omraje_shitole_deshmukh?igsi=a21waDVnYB5cnly')
 })
 
-app.get('/sanpchat', (req,res)=> {
+app.get('/snapchat', (req,res)=> {
   res.send('omraje.shtole')
 })
 
