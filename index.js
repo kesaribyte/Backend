@@ -20,7 +20,9 @@ app.get('/snapchat', (req,res)=> {
 app.get('/login',(req,res) => {
   res.send('email id ')
 })
-
+app.get('/signup',(req,res)=> {
+  res.send('signup')
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
