@@ -17,6 +17,10 @@ app.get('/snapchat', (req,res)=> {
   res.send('omraje.shtole')
 })
 
+app.get('/login',(req,res) => {
+  res.send('email id ')
+})
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
